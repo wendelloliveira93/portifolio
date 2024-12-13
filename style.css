@@ -1,0 +1,173 @@
+/*ESTILO GERAL */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body{
+
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+
+
+
+}
+
+.interface{
+
+
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex; /* Flexbox para alinhamento */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: space-between; /* Espaço entre logo e o restante */
+
+}
+
+/* ESTILO DO CABEÇALHO */
+
+header{
+
+    
+    padding: 20px 0; /* Margem ajustada */
+    background-color: #111; /* Fundo para destacar o cabeçalho */
+
+}
+
+header .logo img {
+    max-width: 250px; /* Limita o tamanho do logo */
+}
+
+header nav {
+    flex: 1; /* Faz o menu ocupar o espaço disponível */
+    text-align: center; /* Centraliza o menu horizontalmente */
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+header .logo{
+
+    max-width: 50px;
+    position: absolute;
+
+    left: 0;
+    top: 0;
+}
+
+header .logo {
+    margin-left: 100px; /* Adiciona espaço à esquerda da logo */
+}
+
+header {
+    padding: 20px 0; /* Espaçamento interno superior e inferior */
+    margin-top: 20px; /* Espaçamento externo do topo */
+    background-color: #111; /* Fundo para destacar o cabeçalho */
+}
+
+
+
+header nav {
+    flex: 1; /* Faz o menu ocupar o espaço disponível */
+    
+   
+text-align: center; /* Centraliza o menu horizontalmente */
+}
+
+header a{
+
+    color: #fff;
+}
+
+header nav ul{
+
+        list-style-type: none;
+        display: inline-flex; /* Alinha os itens na horizontal */
+        gap: 20px; /* Espaçamento entre os itens */
+        margin: 0;
+        padding: 0;
+
+}
+
+header nav ul li a {
+    color: #888; /* Cor inicial (escura) */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 16px;
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: all 0.3s ease; /* Transição suave */
+}
+
+header nav ul li a:hover {
+    background-color: #61a5ff; /* Fundo claro ao passar o mouse */
+    color: #fff; /* Texto mais claro */
+    box-shadow: 0 4px 10px rgba(13, 81, 158, 0.5); /* Sombra suave */
+    transform: scale(1.1); /* Leve aumento no tamanho */
+}
+
+
+header nav ul li{
+
+    display: inline-block;
+    padding: 0 40pxs;
+
+}
+
+header .btn-contato {
+    margin-left: auto; /* Empurra o botão para o lado direito */
+}
+
+header .btn-contato button{
+
+
+    background-color: #61a5ff; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    font-size: 18px; /* Tamanho da fonte */
+    font-weight: bold; /* Peso da fonte */
+    padding: 15px 30px; /* Espaçamento interno (altura e largura) */
+    border: none; /* Remove a borda */
+    border-radius: 50px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de clique */
+    transition: all 0.3s ease; /* Transição suave para efeitos */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+header .btn-contato button:hover {
+    background-color: rgba(13, 81, 158, 0.5);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.imagem-centralizada {
+    display: flex; /* Ativa o flexbox para alinhamento */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Ocupa a altura total da tela */
+    background-color: #000; /* Cor de fundo (opcional) */
+}
+
+.imagem-centralizada img {
+    max-width: 80%; /* Limita a largura máxima da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Bordas arredondadas (opcional) */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Sombra (opcional) */
+}
+
+
